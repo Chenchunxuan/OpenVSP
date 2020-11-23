@@ -16,6 +16,7 @@ matrix:
       compiler: gcc
       env: UVER="20.04"
     - os: osx
+      osx_image: xcode10.1
       compiler: clang
 addons:
   apt:
