@@ -17,7 +17,6 @@ matrix:
       env: UVER="20.04"
     - os: osx
       osx_image: xcode11.3
-      compiler: clang
 addons:
   apt:
     packages:
